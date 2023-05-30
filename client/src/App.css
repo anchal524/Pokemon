@@ -1,0 +1,238 @@
+.App h1 {
+    text-align: center;
+}
+.App {
+    margin-left: 30px;
+}
+.App {
+    display: flex;
+    align-items: center;
+}
+.App {
+    margin-left: 20px;
+}
+.App {
+    display: flex;
+    align-items: flex-end;
+}
+.App {
+    margin-right: 20px;
+}
+.App-body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    color: rgb(22, 21, 21);
+    font-family: "Times New Roman", Times, serif;
+    /* background-color: hsl(0, 79%, 40%); */
+}
+tr,
+td {
+    padding: 10px;
+}
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: rgb(161, 18, 18);
+    height: 150px;
+    padding: 20px;
+    color: #222;
+    position: relative;
+}
+
+.App-title {
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    align-items: center;
+    /* position: absolute; */
+    display: inline-block;
+    bottom: 35%;
+    /* right: 55%; */
+}
+
+cite {
+    font-weight: bold;
+}
+table {
+    align-content: center;
+    margin: auto;
+}
+td {
+    padding: 10px;
+}
+
+.App-intro {
+    font-size: large;
+}
+.cap-first-letter:first-letter {
+    text-transform: capitalize;
+}
+.col-sm-6,
+col-md-4 {
+    border: 1px;
+}
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+ul {
+    list-style: none;
+}
+nav {
+    list-style: none;
+
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    right: 40%;
+    margin-right: 20px;
+}
+
+.navlink {
+    padding: 0.5rem 0.9rem;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none !important;
+    margin-right: 60px;
+    border: black groove 2px;
+    font-size: 35px;
+    /* align-items: center; */
+}
+
+.button {
+    padding: 14px 25px;
+    background-color: rgb(156, 52, 52);
+    border-radius: 3px;
+    color: white;
+    text-decoration: none !important;
+    font-weight: bold;
+    font-size: 30px;
+}
+.link-button {
+    padding: 14px 25px;
+    background-color: rgb(156, 52, 52);
+    border-radius: 3px;
+    color: white;
+    text-decoration: none !important;
+    font-weight: bold;
+    font-size: 30px;
+    border: black groove 2px;
+}
+
+.link-button:hover {
+    padding: 14px 25px;
+    background-color: white;
+    border-radius: 3px;
+    color: rgb(156, 52, 52);
+    text-decoration: none !important;
+    font-weight: bold;
+    font-size: 30px;
+}
+.button:hover {
+    padding: 14px 25px;
+    background-color: white;
+    border-radius: 3px;
+    color: rgb(156, 52, 52);
+    text-decoration: none !important;
+    font-weight: bold;
+    font-size: 30px;
+}
+.button1 {
+    padding: 14px 25px;
+    background-color: rgb(156, 52, 52);
+    border-radius: 3px;
+    color: white;
+    text-decoration: none !important;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 30%;
+}
+.navlink:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 50%;
+    margin: 0 auto 20px;
+}
+
+.cancel-button {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.add-button {
+    position: absolute;
+    bottom: 20px;
+}
+span {
+    font-weight: bold;
+}
+
+.pokemon-img {
+    color: rgb(156, 52, 52);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.pokeDetails {
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+}
+.add {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 20%;
+}
+input,
+select {
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+.trainer-wrapper {
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+.error {
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.pika {
+    /* height: 700px; */
+    background-size: contain;
+    width: 2000px;
+    object-fit: cover;
+}
